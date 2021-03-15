@@ -15,5 +15,9 @@ and starts a WordPress container listening an port 80 which uses MySQL database 
 in a separate but linked Docker container, which are created using [Docker Compose][compose]
 capabilities of the [Azure Docker Extension][ext].
 
+## Steps to deploy
+- Create a resource group in Azure
+- Click 'Deploy to Azure'
+
 [ext]: https://github.com/Azure/azure-docker-extension
 [compose]: https://docs.docker.com/compose
